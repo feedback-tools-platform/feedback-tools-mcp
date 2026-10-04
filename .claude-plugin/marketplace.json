@@ -1,0 +1,15 @@
+{
+  "name": "feedback-tools",
+  "description": "Official feedback.tools plugin: connect Claude Code to your customer feedback.",
+  "owner": {
+    "name": "feedback.tools",
+    "email": "support@feedback.tools"
+  },
+  "plugins": [
+    {
+      "name": "feedback-tools",
+      "source": "./",
+      "description": "Customer feedback for your AI assistant: CSAT, NPS and CES scores, response search, AI themes with bugs and feature requests."
+    }
+  ]
+}

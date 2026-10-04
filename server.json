@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "tools.feedback/mcp",
+  "title": "feedback.tools",
+  "description": "Customer feedback for your AI assistant: CSAT, NPS and CES scores, response search, AI themes.",
+  "websiteUrl": "https://feedback.tools/docs/mcp",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://feedback.tools/mcp"
+    }
+  ]
+}
