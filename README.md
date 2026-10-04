@@ -25,7 +25,7 @@ The MCP server lets an AI assistant work with that data from a chat. Ask "What a
 bugs this month?" or "How did our NPS change since August?", and the assistant picks the
 tools it needs.
 
-This repository holds the connection config and the Claude Code plugin. The server itself is
+This repository holds the connection config and the Claude Code plugin with skills. The server itself is
 hosted by feedback.tools.
 
 | | |
@@ -104,6 +104,16 @@ Any client that supports remote MCP servers with OAuth can connect to
 | `delete_response` | Deletes one response permanently. The assistant asks you to confirm |
 
 The assistant cannot delete a survey or your account.
+
+## Skills (Claude Code plugin)
+
+The plugin adds three skills on top of the tools. Claude picks them up when your request matches.
+
+| Skill | What it does |
+|---|---|
+| `feedback-digest` | Summary of a survey for a period: score and its change, top bugs, feature requests, emotions and quotes |
+| `bug-reports` | Turns bug themes into bug report drafts to paste into your issue tracker, with counts, trend and quotes |
+| `create-survey` | Helps choose the survey type and question, then creates and sets up the survey |
 
 ## Revoke access
 

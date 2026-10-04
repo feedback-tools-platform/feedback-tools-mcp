@@ -1,6 +1,7 @@
 {
   "name": "feedback-tools",
-  "version": "1.0.0",
+  "displayName": "feedback.tools",
+  "version": "1.1.0",
   "description": "Customer feedback for your AI assistant: CSAT, NPS and CES scores, response search, AI themes with bugs and feature requests. Create surveys and import feedback.",
   "author": {
     "name": "feedback.tools",
@@ -10,5 +11,14 @@
   "homepage": "https://feedback.tools/docs/mcp",
   "repository": "https://github.com/feedback-tools-platform/feedback-tools-mcp",
   "license": "MIT",
-  "keywords": ["feedback", "survey", "nps", "csat", "ces", "customer-feedback", "mcp"]
+  "keywords": [
+    "feedback",
+    "survey",
+    "nps",
+    "csat",
+    "ces",
+    "customer-feedback",
+    "mcp"
+  ],
+  "privacyPolicyUrl": "https://feedback.tools/privacy-policy"
 }
